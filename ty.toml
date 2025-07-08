@@ -1,0 +1,5 @@
+# ty type checker configuration
+# See: https://github.com/astral-sh/ty
+
+# Basic configuration - ty will use command line args or auto-detect settings
+# The valid fields are: environment, src, rules, terminal, overrides
