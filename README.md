@@ -9,7 +9,19 @@ A Python CLI application that calculates optimal money transfers to split expens
 - **Simple CLI Interface**: Easy-to-use command-line interface
 - **Flexible Input**: Supports any number of participants and amounts
 
-## Quick Start
+## Quick Run (Recommended)
+
+If you have [uv](https://github.com/astral-sh/uv) installed, you can run the app directly from GitHub in an isolated environment—no manual setup or virtual environment required:
+
+```bash
+uvx --from git+https://github.com/jannejalopeura/money-split money-split
+```
+
+This will automatically fetch the code, install dependencies, and launch the app CLI. No need to clone or install anything manually!
+
+## Quick Start (Manual Setup)
+
+If you prefer to clone and run the app locally, follow these steps:
 
 ### Prerequisites
 - Python 3.8+
