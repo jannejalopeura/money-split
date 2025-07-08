@@ -23,12 +23,18 @@ git clone <repository-url>
 cd money-split
 ```
 
-2. Install dependencies:
+2. (Recommended) Create and activate a virtual environment using uv:
+```bash
+uv venv
+source .venv/bin/activate
+```
+
+3. Install dependencies:
 ```bash
 uv sync
 ```
 
-3. Run the application:
+4. Run the application:
 ```bash
 uv run python src/app.py
 ```
